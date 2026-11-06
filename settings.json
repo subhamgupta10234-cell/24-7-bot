@@ -8,7 +8,7 @@
   "server": {
     "ip": "subhamgupta08.aternos.me",
     "port": 59480,
-    "version": "1.20.1",
+    "version": "1.21.1",
     "try-creative": false
   },
   "position": {
@@ -24,7 +24,7 @@
     },
     "anti-afk": {
       "enabled": true,
-      "sneak": true
+      "sneak": false
     },
     "chat-messages": {
       "enabled": true,
@@ -42,18 +42,18 @@
     "max-reconnect-delay": 120000
   },
   "movement": {
-    "enabled": true,
+    "enabled": false,
     "circle-walk": {
-      "enabled": true,
+      "enabled": false,
       "radius": 4,
       "speed": 3000
     },
     "look-around": {
-      "enabled": true,
+      "enabled": false,
       "interval": 5000
     },
     "random-jump": {
-      "enabled": true,
+      "enabled": false,
       "interval": 10000
     }
   },
@@ -83,5 +83,8 @@
   },
   "chat": {
     "respond": true
-  }
+  },
+"auto-reconnect": true,
+"auto-reconnect-delay": 10000,
+"max-reconnect-delay": 120000
 }
